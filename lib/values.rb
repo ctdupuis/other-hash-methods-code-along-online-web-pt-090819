@@ -10,7 +10,7 @@ groceries = {
 
 def get_the_values(groceries)
  groceries.each do |key, value|
-   binding.pry
+  # binding.pry
    return value
  end
 end

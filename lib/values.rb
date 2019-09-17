@@ -9,6 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  binding.pry
-  groceries.values.flatten
+ groceries.each do |key, value|
+   return value
+ end
 end
